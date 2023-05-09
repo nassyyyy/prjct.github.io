@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body,html {height: 100%; margin: 0%; 
+            background-image: url("https://images.unsplash.com/photo-1542948338-ded3dbb75080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+            background-position: center; background-size: cover; background-attachment: fixed;
+            align-items: center;}
+
+            .panel {height: 10%; min-height: 50px; width: 100%; background-color:rgb(177, 175, 180); 
+            position: -webkit-sticky; position: sticky; top: 0; z-index: 100;
+            margin: auto;}
+            .bg {background-color:rgba(255, 255, 255, 0.103); backdrop-filter: blur(2px); 
+            margin: 2%; padding: 0.2%;}
+
+            h4,p {color:rgb(40, 31, 80); font-family: Tahoma, sans-serif; size: 10;}
+            h1,h2,h3 {color: rgb(40, 31, 80); font-family: Verdana, sans-serif; padding: 1%;}
+
+            #gallery {width: 100%; overflow: hidden; position: relative; margin: 20px auto; border: none;}
+
+            #galery {list-style: none; padding: 0; margin: 0; display: flex; justify-content: space-between;}
+
+            li {padding: 0; margin: 5px 0;}
+            li a img { display: block; border: none; height: 100px;}
+            li a {display: block; }
+
+            #big {overflow: hidden; position: relative; width: 100%; padding-bottom: 60%; height: 0;}
+            #big img {width: 100%; height: 100%; object-fit: cover;}
+
+        </style>
+    </head>
+    <body>
+        <div class="justforpanelstick">
+
+            <div class="panel">
+                <a href="mainpage.html">
+                    <button style="background: none; border: none;"><img style="height: 40px;" 
+                    src="https://img.icons8.com/parakeet/256/home.png"></button>
+                </a>
+                <a href="thirdpage.html">
+                    <button style="background: none; border: none;"><img style="height: 40px;"
+                    src="https://img.icons8.com/parakeet/256/address-book.png"></button>
+                </a>
+            </div> 
+            <div class="bg">
+                <h2>галерея клуба</h2>
+
+                <div id="gallery">
+                    
+                    <ul id="galery">
+
+                    <li>
+                        <a href="#photo1">
+                            <img alt="photo1" 
+                            src="https://images.unsplash.com/photo-1607823477653-e2c3980acb86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#photo2">
+                            <img alt="photo2" 
+                            src="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#photo3">
+                            <img alt="photo3" 
+                            src="https://images.unsplash.com/photo-1578402027442-b0d03cd2c0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#photo4">
+                            <img alt="photo4" 
+                            src="https://images.unsplash.com/photo-1647288020413-dc15f04ce1a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+                        </a>
+                    </li>
+                    </ul>
+
+                    <div id="big">
+                    <div>
+                        <img id="photo1" alt="pic1" 
+                        src="https://images.unsplash.com/photo-1607823477653-e2c3980acb86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80">
+                    </div>
+
+                    <div>
+                        <img id="photo2" alt="pic2" 
+                        src="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+                    </div>
+
+                    <div>
+                        <img id="photo3" alt="pic3" 
+                        src="https://images.unsplash.com/photo-1578402027442-b0d03cd2c0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80">
+                    </div>
+
+                    <div>
+                        <img id="photo4" alt="pic4" 
+                        src="https://images.unsplash.com/photo-1647288020413-dc15f04ce1a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </body>
+</html>
